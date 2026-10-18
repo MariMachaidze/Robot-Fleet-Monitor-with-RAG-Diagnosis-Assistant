@@ -1,0 +1,12 @@
+# Pinned to the versions verified in this project. Later stages append to this file.
+
+# Stage 1: REST backends (fleet_api, erp_mock)
+fastapi==0.143.5
+uvicorn[standard]==0.54.0
+httpx==0.28.1
+
+# Dev and test
+pytest==9.1.1
+ruff==0.17.1
+# Starlette 1.8's TestClient prefers httpx2 and warns when it falls back to httpx
+httpx2==2.13.1

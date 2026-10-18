@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and local config
+.env
+
+# Local data: SQLite databases and the Chroma vector index
+data/
+*.db
+*.sqlite
+*.sqlite3
+chroma_db/
+
+# Logs (keep the folder, ignore its contents)
+logs/*
+!logs/.gitkeep
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.cache/
+evals/.cache/
