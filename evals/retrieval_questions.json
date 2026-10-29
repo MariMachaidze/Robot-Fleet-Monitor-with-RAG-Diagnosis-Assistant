@@ -1,0 +1,246 @@
+[
+  {
+    "id": "q01", "type": "error_code", "robot_model": "AMR-100", "error_code": "E10",
+    "question": "What does error code E10 mean on an AMR-100?",
+    "expected": [
+      {"doc_id": "ECR-100", "section_title": "E10 – Battery critically low"},
+      {"doc_id": "TG-E10", "section_title": "Symptoms"}
+    ]
+  },
+  {
+    "id": "q02", "type": "error_code", "robot_model": "AMR-200", "error_code": "E21",
+    "question": "My AMR-200 robot shows E21. What should I do?",
+    "expected": [
+      {"doc_id": "ECR-200", "section_title": "E-21 Path blocked"},
+      {"doc_id": "TG-E21", "section_title": "Steps to clear the path"}
+    ]
+  },
+  {
+    "id": "q03", "type": "error_code", "robot_model": "AMR-100", "error_code": "E33",
+    "question": "How do I fix error E33 on an AMR-100?",
+    "expected": [
+      {"doc_id": "ECR-100", "section_title": "E33 – Lidar signal lost"},
+      {"doc_id": "TG-E33", "section_title": "Fix"}
+    ]
+  },
+  {
+    "id": "q04", "type": "error_code", "robot_model": "AMR-100", "error_code": "E42",
+    "question": "How do I fix E42 on an AMR-100 robot?",
+    "expected": [
+      {"doc_id": "TG-E42", "section_title": "Fix for AMR-100"},
+      {"doc_id": "ECR-100", "section_title": "E42 – Wheel motor stall"}
+    ]
+  },
+  {
+    "id": "q05", "type": "error_code", "robot_model": "AMR-200", "error_code": "E42",
+    "question": "How do I fix E42 on an AMR-200 robot?",
+    "expected": [
+      {"doc_id": "TG-E42", "section_title": "Fix for AMR-200"},
+      {"doc_id": "ECR-200", "section_title": "E-42 Wheel drive fault"}
+    ]
+  },
+  {
+    "id": "q06", "type": "error_code", "robot_model": "AMR-200", "error_code": "E57",
+    "question": "What causes error E57 on an AMR-200?",
+    "expected": [
+      {"doc_id": "TG-E57", "section_title": "Cause"},
+      {"doc_id": "RN-FW20", "section_title": "Localization changes"}
+    ]
+  },
+  {
+    "id": "q07", "type": "error_code", "robot_model": "AMR-200", "error_code": "E57",
+    "question": "What are the steps to resolve localization drift E57?",
+    "expected": [
+      {"doc_id": "TG-E57", "section_title": "Steps"}
+    ]
+  },
+  {
+    "id": "q08", "type": "error_code", "error_code": "E60",
+    "question": "What does E60 mean and why does it keep happening on this site?",
+    "expected": [
+      {"doc_id": "TG-E60", "section_title": "Known cause on this site"},
+      {"doc_id": "IR-2024-112", "section_title": "Root cause"}
+    ]
+  },
+  {
+    "id": "q09", "type": "error_code", "robot_model": "AMR-100", "error_code": "E57",
+    "question": "Can an AMR-100 robot report E57?",
+    "expected": [
+      {"doc_id": "ECR-100", "section_title": "E57 – Localization drift"},
+      {"doc_id": "TG-E57", "section_title": "Applies to"}
+    ]
+  },
+  {
+    "id": "q10", "type": "error_code", "error_code": "E33",
+    "question": "E33 keeps coming back even after a new lidar cable was fitted. What next?",
+    "expected": [
+      {"doc_id": "TG-E33", "section_title": "If E33 comes back"}
+    ]
+  },
+  {
+    "id": "q11", "type": "error_code", "robot_model": "AMR-200", "error_code": "E10",
+    "question": "Which battery pack do I order for an AMR-200 with E10 and a battery that drains fast?",
+    "expected": [
+      {"doc_id": "ECR-200", "section_title": "E-10 Battery critically low"},
+      {"doc_id": "TG-E10", "section_title": "Fix: degraded cell"}
+    ]
+  },
+  {
+    "id": "q12", "type": "error_code", "error_code": "E60",
+    "question": "A robot reports E60 but it was nowhere near aisle 7. What should I check?",
+    "expected": [
+      {"doc_id": "TG-E60", "section_title": "If E60 happens outside aisle 7"}
+    ]
+  },
+  {
+    "id": "q13", "type": "symptom",
+    "question": "The robot's position has not changed for several readings and its battery is draining about three times faster than normal. What is wrong?",
+    "expected": [
+      {"doc_id": "TG-E42", "section_title": "Symptoms"},
+      {"doc_id": "ECR-100", "section_title": "E42 – Wheel motor stall"},
+      {"doc_id": "ECR-200", "section_title": "E-42 Wheel drive fault"}
+    ]
+  },
+  {
+    "id": "q14", "type": "symptom",
+    "question": "A robot is standing still in the aisle but its battery drains at the normal rate. Why?",
+    "expected": [
+      {"doc_id": "TG-E21", "section_title": "Symptoms"},
+      {"doc_id": "ECR-100", "section_title": "E21 – Path blocked"},
+      {"doc_id": "ECR-200", "section_title": "E-21 Path blocked"}
+    ]
+  },
+  {
+    "id": "q15", "type": "symptom",
+    "question": "The position reported by the robot jumps around by two or three cells, but the robot is not driving.",
+    "expected": [
+      {"doc_id": "TG-E33", "section_title": "Symptoms"},
+      {"doc_id": "ECR-100", "section_title": "E33 – Lidar signal lost"},
+      {"doc_id": "ECR-200", "section_title": "E-33 Lidar signal lost"}
+    ]
+  },
+  {
+    "id": "q16", "type": "symptom",
+    "question": "We have had no telemetry from a robot for a while, but the dashboard still says it is moving.",
+    "expected": [
+      {"doc_id": "TG-E60", "section_title": "Symptoms"},
+      {"doc_id": "IR-2024-112", "section_title": "Lessons learned"}
+    ]
+  },
+  {
+    "id": "q17", "type": "symptom",
+    "question": "The battery fell by more than 5 percent per reading before the robot stopped. What does that mean?",
+    "expected": [
+      {"doc_id": "TG-E10", "section_title": "Diagnosis steps"},
+      {"doc_id": "TG-E10", "section_title": "Symptoms"},
+      {"doc_id": "IR-2025-047", "section_title": "How to tell the two E10 causes apart"}
+    ]
+  },
+  {
+    "id": "q18", "type": "symptom",
+    "question": "After a firmware update the robot suddenly showed up five cells away from where it was and kept driving.",
+    "expected": [
+      {"doc_id": "TG-E57", "section_title": "Symptoms"},
+      {"doc_id": "RN-FW20", "section_title": "Localization changes"}
+    ]
+  },
+  {
+    "id": "q19", "type": "symptom",
+    "question": "Robots keep stopping in aisle 7 and come back later with an error.",
+    "expected": [
+      {"doc_id": "TG-E60", "section_title": "Known cause on this site"},
+      {"doc_id": "IR-2024-112", "section_title": "Summary"}
+    ]
+  },
+  {
+    "id": "q20", "type": "symptom",
+    "question": "Two robots ran out of battery early in the morning shift although their batteries are healthy.",
+    "expected": [
+      {"doc_id": "IR-2025-047", "section_title": "Summary"},
+      {"doc_id": "IR-2025-047", "section_title": "Root cause"},
+      {"doc_id": "TG-E10", "section_title": "Likely causes"}
+    ]
+  },
+  {
+    "id": "q21", "type": "procedure",
+    "question": "How do I restart a robot after the emergency stop was pressed?",
+    "expected": [
+      {"doc_id": "OP-01", "section_title": "Restarting the robot"}
+    ]
+  },
+  {
+    "id": "q22", "type": "procedure",
+    "question": "How do I release the brakes so that a robot can be pushed by hand?",
+    "expected": [
+      {"doc_id": "OP-03", "section_title": "Releasing the brakes"}
+    ]
+  },
+  {
+    "id": "q23", "type": "procedure",
+    "question": "How do I check in the ERP whether a spare part is in stock?",
+    "expected": [
+      {"doc_id": "OP-04", "section_title": "Checking stock"}
+    ]
+  },
+  {
+    "id": "q24", "type": "procedure",
+    "question": "Which priority should a maintenance notification get when the needed part is out of stock?",
+    "expected": [
+      {"doc_id": "OP-04", "section_title": "Creating the maintenance notification"}
+    ]
+  },
+  {
+    "id": "q25", "type": "procedure", "robot_model": "AMR-100",
+    "question": "How often should the lidar cable connector on an AMR-100 be checked?",
+    "note": "MS-100 writes this heading as bold text, not as a markdown heading, so a '#'-based section parser cannot see it.",
+    "expected": [
+      {"doc_id": "MS-100", "section_title": "Monthly tasks"}
+    ]
+  },
+  {
+    "id": "q26", "type": "tricky",
+    "question": "How do I return a robot with a low battery to the charger?",
+    "note": "Superseded procedure: OP-02 (2023) has the matching title but is outdated. Only the newer documents count.",
+    "expected": [
+      {"doc_id": "RN-FW14", "section_title": "Auto-dock and Send to charger"},
+      {"doc_id": "TG-E10", "section_title": "Fix: return the robot to the charger"}
+    ]
+  },
+  {
+    "id": "q27", "type": "tricky",
+    "question": "Should I drive the robot onto the charger with the pendant or use automatic docking?",
+    "note": "Superseded procedure: OP-02 (2023) says not to use auto-dock; the newer documents replace it.",
+    "expected": [
+      {"doc_id": "RN-FW14", "section_title": "Auto-dock and Send to charger"},
+      {"doc_id": "TG-E10", "section_title": "Fix: return the robot to the charger"}
+    ]
+  },
+  {
+    "id": "q28", "type": "tricky", "robot_model": "AMR-100", "error_code": "E42",
+    "question": "What is error 42 on an AMR-100 and how is it fixed?",
+    "note": "Spelling: 'error 42' instead of E42.",
+    "expected": [
+      {"doc_id": "ECR-100", "section_title": "E42 – Wheel motor stall"},
+      {"doc_id": "TG-E42", "section_title": "Fix for AMR-100"}
+    ]
+  },
+  {
+    "id": "q29", "type": "tricky", "robot_model": "AMR-200", "error_code": "E42",
+    "question": "Robot 3 is an AMR-200 and shows E-42. What should I do?",
+    "note": "Spelling: 'E-42' instead of E42, and the AMR-200 fix differs from the AMR-100 one.",
+    "expected": [
+      {"doc_id": "ECR-200", "section_title": "E-42 Wheel drive fault"},
+      {"doc_id": "TG-E42", "section_title": "Fix for AMR-200"},
+      {"doc_id": "IR-2025-104", "section_title": "What fixed it"}
+    ]
+  },
+  {
+    "id": "q30", "type": "tricky", "error_code": "E42",
+    "question": "Is the fix for E42 the same on the AMR-100 and the AMR-200?",
+    "note": "Same code on two models with different fixes.",
+    "expected": [
+      {"doc_id": "IR-2025-104", "section_title": "Lessons learned"},
+      {"doc_id": "TG-E42", "section_title": "First steps (both models)"}
+    ]
+  }
+]

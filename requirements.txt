@@ -1,9 +1,17 @@
 # Pinned to the versions verified in this project. Later stages append to this file.
 
+# CPU-only PyTorch: there is no GPU here, and the default CUDA build adds about 3 GB.
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 # Stage 1: REST backends (fleet_api, erp_mock)
 fastapi==0.143.5
 uvicorn[standard]==0.54.0
 httpx==0.28.1
+
+# Stage 4: retrieval (local embedding model + local vector index)
+torch==2.14.1
+sentence-transformers==6.1.0
+chromadb==1.5.9
 
 # Dev and test
 pytest==9.1.1

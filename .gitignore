@@ -21,6 +21,9 @@ chroma_db/
 logs/*
 !logs/.gitkeep
 
+# Personal learning experiments, not part of the project
+playground/
+
 # Caches
 .pytest_cache/
 .ruff_cache/
